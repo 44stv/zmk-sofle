@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - '"'
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - BT_LAYER
-  - $$mdi:backspace-reverse-outline$$
+  - {t: \, s: '|'}
   LAYER1:
   - {t: '`', s: '~'}
   - F1
